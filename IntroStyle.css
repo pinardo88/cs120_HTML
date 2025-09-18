@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'TitleFonts';
+  src: url('./nexa-rust.otf');
+}
+
+@font-face {
+  font-family: 'BodyFonts';
+  src: url('./lineReg.otf');
+}
+
+.SectionTitles {
+  font-family: 'TitleFonts';
+  /* text-align: center; */
+  font-size: 58px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topNav {
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 0px 6px 8px rgba(0,0,0,0.3);  */
+    /* horizontal, vertical offset, blur + shadow color */
+    text-align: center;
+    height: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav p {
+  margin: 0;
+  color:white;
+  font-family: 'TitleFonts';
+  font-size: 20px;
+}
+
+#selfPic {
+    margin-left: -8em;
+    margin-right: 3em;
+    width: 30em;
+}
+
+#intro {
+    margin: 10em auto;
+    width: 90em;
+    height: 35em;
+    background-color: rgb(10, 10, 10);
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#innerIntroBox {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+#bodySection {
+    font-family: 'BodyFonts';
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#moreFactsContainer{
+    width: 35em;
+    margin-left: -35em;
+    margin-top: 4em;
+}
+
+#moreFacts {
+    margin-left: 3em;
+}
+
+#moreFactsBox {
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: 5em;
+    margin-top: -4.2em;
+}
+
+.foodDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#petnameBox {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    width: 50em;
+    z-index: 50;
+    margin-top: -.8em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookCover {
+    width: 10em;
+}
+
+table {
+    border: none;
+    border-width: 0;
+    /* this isn't working though how do you get the borders to stop appearing? */
+}
+
+table th {
+    font-weight: 200;
+}
+
+table td {
+    font-size: 18px !important;
+}
+
+table th,
+table td {
+    padding: 0.5em 1.5em;
+}
+
+table th,
+table tr:nth-child(3),
+table tr:nth-child(5) {
+  background-color: black;
+  color: white;
+}
+
+/* body { background: pink; } */
+
+h1 {
+    margin: 0.4em 0;
+    color:whitesmoke;
+}
